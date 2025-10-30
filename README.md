@@ -20,7 +20,7 @@ Before running the script, you must edit the environment variables inside `backu
 
 | Variable | Description | Example Value |
 | :--- | :--- | :--- |
-| `BACKUP_HOST` | The **root** user and IP/hostname of the remote machine where backups are stored. | `"root@192.168.1.50"` |
+| `BACKUP_HOST` | The **root** user and IP/hostname of the remote machine where backups are stored. | `"root@192.168.*.*"` |
 | `SOURCE_DIR` | The **absolute path** to the local directory you want to back up. | `"/var/log/"` |
 | `DEST_DIR` | The absolute path on the remote host where the data will be placed. | `"/backups/module10/"` |
 | `LOG_FILE` | The path for the local log file created by the script. | `"./backup.log"` |
